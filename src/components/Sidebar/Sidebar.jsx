@@ -19,7 +19,7 @@ const Sidebar = () => {
           <span className=" ">
             <i className="ri-taxi-line"></i>
           </span>{" "}
-          Co_Ride 
+          Co_Ride ak
         </h2>
       
       
