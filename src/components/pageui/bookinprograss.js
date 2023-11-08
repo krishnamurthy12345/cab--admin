@@ -81,7 +81,7 @@ function Prograss() {
               <div className='suc'>
                 <CircularProgressbar value={percentage} text={`${percent1}%`} styles={pinkStyles} />
               </div>
-              <p className='text-center mt-3'>New Users</p>
+              <p className='text-center mt-3'>New Booking</p>
             </div>
           </div>
         </div>
