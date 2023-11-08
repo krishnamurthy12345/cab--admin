@@ -6,9 +6,10 @@ import TopNav from "../TopNav/TopNav";
 const Layout = () => {
   return (
     <div className="layout">
-      <Sidebar />
-      <div className="main__layout">
         <TopNav />
+    
+      <div className="main__layout">
+        <Sidebar />
 
         <div className="content">
           <Router />

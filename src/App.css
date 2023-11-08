@@ -42,3 +42,11 @@ a {
 img {
   width: 100%;
 }
+
+.app {
+  display: flex;
+}
+
+.content {
+  flex-grow: 1;
+}
