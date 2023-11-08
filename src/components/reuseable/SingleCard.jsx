@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "../reuseable/single.css";
+import "..reuseable/";
 function UserCountCard() {
   const [totalUsers, setTotalUsers] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -21,13 +21,21 @@ function UserCountCard() {
   }, []);
 
   return (
-   <div className="container">
-    <div class="row">
-  
-</div>
-   </div>
-    
-      );
+    <div className="dashboard">
+    <div className="dashboard__wrapper">
+      <div className="dashboard__cards">
+    <div className="user-count-card">
+      <h3>Total User Count</h3>
+      {isLoading ? (
+        <p>Loading...</p>
+      ) : error ? (
+        <p>{error}</p>
+      ) : (
+        <p>Total Users: {totalUsers}</p>
+      )}
+    </div>
+    </div></div></div>
+  );
 }
 
 export default UserCountCard;
