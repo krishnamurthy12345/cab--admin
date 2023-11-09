@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "..reuseable/";
 function UserCountCard() {
   const [totalUsers, setTotalUsers] = useState(null);
   const [isLoading, setIsLoading] = useState(true);

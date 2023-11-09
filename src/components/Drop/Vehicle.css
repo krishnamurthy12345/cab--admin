@@ -1,0 +1,6 @@
+ul li:hover{
+    background-color: aqua;
+}
+table, table th{
+    border-bottom: solid 2px black ;
+}

@@ -6,6 +6,7 @@ import Bookings from "../pages/Bookings";
 import SellCar from "../pages/SellCar";
 import Settings from "../pages/Settings";
 import UserData from "../pages/User";
+import FareManage from "../pages/Fare-Manage";
 
 const Router = () => {
   return (
@@ -19,6 +20,7 @@ const Router = () => {
       <Route path="/sell-car" element={<SellCar />} />
       <Route path="/settings" element={<Settings />} />
       <Route path="/user" element={<UserData/>} />
+      <Route path="/fare" element={<FareManage/>} />
     </Routes>
   );
 };

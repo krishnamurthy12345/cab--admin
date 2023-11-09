@@ -59,7 +59,7 @@
                   </Link>
                 </li>
                 <li className="nav-item p-1">
-                  <Link to="oiu" className="nav-link text-white side">
+                  <Link to="fare" className="nav-link text-white side">
                     <i className="bi bi-person me-3 fs-5"></i>
                     <span className="fs-5">Fare-Manage</span>
                   </Link>

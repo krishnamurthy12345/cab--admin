@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPenToSquare, faTrashCan } from '@fortawesome/free-solid-svg-icons';
 import axios from 'axios';
 
-const LeChart = () => {
+const MileChart = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [searchTerm, setSearchTerm] = useState('');
   const [entries, setEntries] = useState(10);
@@ -173,4 +173,4 @@ const LeChart = () => {
   );
 };
 
-export default LeChart;
+export default MileChart;
